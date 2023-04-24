@@ -25,10 +25,17 @@ p {
 
 body {
     text-align: center;
+    background: linear-gradient(rgb(224, 217, 217), rgba(255, 244, 244, 0.519)), url("bg.jpg");
+    background-size: 20%;
+    background-repeat: repeat;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+img {
+    opacity: 0;
 }
